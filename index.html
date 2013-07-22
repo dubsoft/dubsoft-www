@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>Ember Starter Kit</title>
+<title>Dubsoft</title>
 </head>
 <body>
 
@@ -32,9 +32,17 @@
   </script>
 
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
-  <script src="//cdnjs.cloudflare.com/ajax/libs/handlebars.js/1.0.0-rc.4/handlebars.js"></script>
-  <script src="//cdnjs.cloudflare.com/ajax/libs/ember.js/1.0.0-rc.6/ember.js"></script>
-  <script src="app.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/handlebars.js/1.0.0-rc.4/handlebars.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/ember.js/1.0.0-rc.6/ember.min.js"></script>
+  <script type="text/javascript">
+    App = Ember.Application.create();
+
+    App.Router.map(function() {
+      this.route('about');
+      this.route('contact');
+      this.route('portfolio');
+    });
+  </script>
 
 </body>
 </html>
