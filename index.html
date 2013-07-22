@@ -1,7 +1,40 @@
+<!DOCTYPE html>
 <html>
 <head>
-  <title>Dubsoft</title>
+<meta charset="utf-8">
+<title>Ember Starter Kit</title>
 </head>
 <body>
+
+  <script type="text/x-handlebars">
+    <h2>Dubsoft</h2>
+    <ul>
+      <li>{{#linkTo "about"}}about{{/linkTo}}</li>
+      <li>{{#linkTo "portfolio"}}portfolio{{/linkTo}}</li>
+      <li>{{#linkTo "contact"}}contact{{/linkTo}}</li>
+    </ul>
+    {{outlet}}
+  </script>
+
+  <script type="text/x-handlebars" data-template-name="about">
+    <p>Dubsoft is a software consultancy that gets things done. Our main philosophy is getting tasks accomplished
+       with the minimal amount of work. This results in testible, modularized, efficient code.</p>
+    <p>We strive to use the best technology for your particular use case. There is no reason not to use the better
+       hammer.</p>
+  </script>
+
+  <script type="text/x-handlebars" data-template-name="portfolio">
+    WIP
+  </script>
+
+  <script type="text/x-handlebars" data-template-name="contact">
+    WIP
+  </script>
+
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/handlebars.js/1.0.0-rc.4/handlebars.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/ember.js/1.0.0-rc.6/ember.js"></script>
+  <script src="app.js"></script>
+
 </body>
 </html>
