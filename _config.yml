@@ -2,8 +2,3 @@ name: dubsoft
 markdown: redcarpet
 pygments: true
 exclude: [README.md]
-
-analytics:
-  provider: google
-  google:
-    tracking_id : 'UA-37144007-1'
