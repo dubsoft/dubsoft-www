@@ -47,4 +47,5 @@ have a set of new features I would like to [implement.](https://github.com/t3mpu
 Enough product plugging. My point is that the start of my idea and the
 tangible work product are online, indexed, and easily found. My email
 address, my name, my commits. While it may seem like a strange idea to
-put yourself out in the open, this is the best way to protect yourself.
+put yourself out in the open, this is the best way to protect yourself
+and your ideas.
