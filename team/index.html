@@ -1,0 +1,17 @@
+---
+title: dubsoft - team
+layout: default
+---
+
+<h1>Team</h1>
+
+{% for member in site.data.members %}
+  <div class="row">
+    <div class="col-md-4">
+      <img src="{{ member.gravatar }}" alt="{{ member.name gravatar }}"/>
+    </div>
+    <div class="col-md-6 col-md-offset-2">
+      <p>{{ member.bio }}</p>
+    </div>
+  </div>
+{% endfor %}
