@@ -49,3 +49,7 @@ footer {
     width: 50%; /* 6 columns */
   }
 }
+
+h1.title {
+  font-size: 60px;
+}
