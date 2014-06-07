@@ -3,25 +3,13 @@ layout: default
 title: dubsoft - products
 ---
 <h1>Products</h1>
+{% for project in site.data.projects %}
 <div class="row">
   <div class="col-md-4">
-    <h2>Tempus Time Tracker</h2>
-    <img height="50%" width="50%" src="/images/tempus.png" alt="temp.us logo"></img>
+    <h2>{{project.title}}</h2>
+    <img height="50%" width="50%" src="{{project.image}}" alt="{{project.alt}}"></img>
   </div>
   <div class="col-md-8">
-    <p>Tempus is a time tracker that is changing the way people track time.
-    The idea is to leverage the power of data, intelligent scripts and
-    programs, and natural language processing to track/record/export time
-    with minimal effort.</p>
-
-    <p>Tempus is an alpha product and is always looking for
-    user/potential user input. Head on over to <a
-      href="http://www.t3mp.us">www.t3mp.us</a> to join the mailing list
-    and to be a beta tester!</p>
-
-    <p>For the software developer type, Tempus is an open source project
-    licensed under the BSD 3 Clause license. Feel free to look at the <a
-      href="https://github.com/t3mpus/tempus">source code</a> and
-    provide feedback and contributions!</p>
+    {{project.blurb}}
   </div>
 </div>
