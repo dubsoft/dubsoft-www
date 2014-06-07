@@ -1,4 +1,3 @@
 name: dubsoft
 markdown: redcarpet
-pygments: true
 exclude: [README.md, vector]

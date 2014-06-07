@@ -3,13 +3,14 @@ layout: default
 title: dubsoft - products
 ---
 <h1>Products</h1>
-{% for project in site.data.projects %}
+{% for product in site.data.products %}
 <div class="row">
   <div class="col-md-4">
-    <h2>{{project.title}}</h2>
-    <img height="50%" width="50%" src="{{project.image}}" alt="{{project.alt}}"></img>
+    <h2>{{product.title}}</h2>
+    <img height="50%" width="50%" src="{{product.image}}" alt="{{product.alt}}"></img>
   </div>
   <div class="col-md-8">
-    {{project.blurb}}
+    {{product.blurb}}
   </div>
 </div>
+{% endfor %}

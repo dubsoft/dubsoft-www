@@ -3,62 +3,19 @@ layout: default
 title: dubsoft - projects
 ---
 <h1>Projects</h1>
-<div class="row">
-  <div class="col-md-4">
-    <h2>Mobile Apps Galore</h2>
-    <img height="50%" width="30%" src="/images/Android_Robot_200.png" alt="android robot"></img>
+{% for project in site.data.projects %}
+  {% capture left %}4{% endcapture %}
+  {% capture right %}4{% endcapture %}
+  <div class="row">
+    <div class="col-md-{{ left }}">
+      <h2>{{project.lead}}</h2>
+      <img height="50%" width="30%" src="{{project.image}}" alt="{{project.alt}}"></img>
+    </div>
+    <div class="col-md-{{ right }} col-md-offset-2">
+      {{project.blurb}}
+    </div>
   </div>
-  <div class="col-md-6 col-md-offset-2">
-    <p>I have had to pleasure to help build restaurant ordering apps for some pretty cool brands. Details coming soon!</p>
-  </div>
-</div>
-<hr>
-<div class="row">
-  <div class="col-md-6">
-    <p><a href="http://www.solertium.com/work/projects/appygram">solertium</a>
-    created a wonderful in-app feedback and error reporting
-    SaaS named <a href="http://www.appygram.com">Appygram</a>.
-    dubsoft created and maintains the 3rd party connectors for nodejs
-    and Titanium. They are open source and available on github.</p>
-    <ul>
-      <li><a
-        href="https://github.com/dubsoft/appygram-node">appygram-node</a></li>
-      <li><a
-        href="https://github.com/dubsoft/appygram-ti">appygram-ti</a></li>
-    </ul>
-  </div>
-  <div class="col-md-4 col-offset-2">
-    <h2>Appygram Connectors</h2>
-    <br/>
-    <a href="http://www.appygram.com"><img src="/images/appygram.png" alt="appygram.com logo"></img></a>
-  </div>
-</div>
-<hr>
-<div class="row">
-  <div class="col-md-4">
-    <h2>Open Source Contributions</h2>
-    <a href="https://github.com"><img width="50%" height="50%" src="/images/GitHub_Logo.png" alt="Github logo"></img></a>
-  </div>
-  <div class="col-md-6 col-md-offset-2">
-    <p>We are very active in the open source world. All of the open source work leverages
-    the power of <a href="https://github.com">Github</a>.
-    <ul>
-      <li><a href="https://github.com/wlaurance">Will Laurance on Github</a></li>
-      <li><a href="https://github.com/dubsoft">dubsoft Github group</a></li>
-      <li><a href="https://github.com/t3mpus">Tempus Github group</a></li>
-    </ul>
-  </div>
-</div>
-
-<div class="row">
-  <div class="col-md-4">
-    <h2>Websites</h2>
-  </div>
-  <div class="col-md-6 col-md-offset-2">
-    <ul>
-      <li><a href="http://dotheyusenode.herokuapp.com" target="_blank">Do They Use Node?</a>
-      <li><a href="http://www.zdrybar.biz" target="_blank">Z Drybar</a>
-    </ul>
-  </div>
-</div>
-
+  {% if forloop.last == false %}
+  <hr>
+  {% endif %}
+{% endfor %}

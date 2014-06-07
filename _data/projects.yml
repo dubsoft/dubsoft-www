@@ -1,0 +1,36 @@
+- lead: Powerful Mobile Apps
+  image: "/images/Android_Robot_200.png"
+  alt: "android robot"
+  blurb: '
+  <p>I have had to pleasure to help build restaurant ordering apps for some pretty cool brands. Details coming soon!</p>
+  '
+
+- lead: Appygram Contributor
+  image: "/images/appygram.png"
+  alt: "Appygram.com logo"
+  blurb: '
+    <p><a href="http://www.solertium.com/work/projects/appygram">solertium</a>
+      created a wonderful in-app feedback and error reporting
+      SaaS named <a href="http://www.appygram.com">Appygram</a>.
+      dubsoft created and maintains the 3rd party connectors for nodejs
+      and Titanium. They are open source and available on github.</p>
+      <ul>
+        <li><a
+          href="https://github.com/dubsoft/appygram-node">appygram-node</a></li>
+        <li><a
+          href="https://github.com/dubsoft/appygram-ti">appygram-ti</a></li>
+      </ul>
+  '
+- lead: Open Source Stewardship
+  image: "/images/GitHub_Logo.png"
+  alt: "Github logo"
+  blurb: '
+    <p>We are very active in the open source world. All of the open source work leverages
+      the power of <a href="https://github.com">Github</a>.
+      <ul>
+        <li><a href="https://github.com/wlaurance">Will Laurance on Github</a></li>
+        <li><a href="https://github.com/dubsoft">dubsoft Github group</a></li>
+        <li><a href="https://github.com/t3mpus">Tempus Github group</a></li>
+      </ul>
+  '
+

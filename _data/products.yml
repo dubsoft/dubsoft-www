@@ -1,7 +1,7 @@
 - title: Tempus Time Tracker
-image: /images/tempus.png
-alt: t3mp.us logo
-blurb: '
+  image: /images/tempus.png
+  alt: t3mp.us logo
+  blurb: '
     <p>Tempus is a time tracker that is changing the way people track time.
     The idea is to leverage the power of data, intelligent scripts and
     programs, and natural language processing to track/record/export time
