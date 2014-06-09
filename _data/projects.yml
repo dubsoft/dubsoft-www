@@ -1,30 +1,36 @@
 - lead: Powerful Mobile Apps
   image: "/images/Android_Robot_200.png"
   alt: "android robot"
-  blurb: '
-  <p>I have had to pleasure to help build restaurant ordering apps for some pretty cool brands. Details coming soon!</p>
-  '
+  blurb: >
+    <p>Mobile apps are the present and the future.</p>
+    <p>We've played a role in developing iOS and Android
+       applications for Five Guys Burgers and Fries, Reward
+       Kiosk Gurus and local fine dining restaurants.</p>
 
 - lead: Appygram Contributor
   image: "/images/appygram.png"
   alt: "Appygram.com logo"
-  blurb: '
-    <p><a href="http://www.solertium.com/work/projects/appygram">solertium</a>
-      created a wonderful in-app feedback and error reporting
-      SaaS named <a href="http://www.appygram.com">Appygram</a>.
+  blurb: >
+    <p><a href="http://www.solertium.com/work/projects/appygram">Solertium</a>
+      runs a wonderful in-app feedback and error reporting
+      SaaS, <a href="http://www.appygram.com">Appygram</a>.
       dubsoft created and maintains the 3rd party connectors for nodejs
-      and Titanium. They are open source and available on github.</p>
+      , Titanium, and Go. They are open source and available on github.</p>
       <ul>
         <li><a
           href="https://github.com/dubsoft/appygram-node">appygram-node</a></li>
         <li><a
           href="https://github.com/dubsoft/appygram-ti">appygram-ti</a></li>
+        <li><a
+          href="https://github.com/wlaurance/appygram-go">appygram-go</a></li>
       </ul>
-  '
+      We dog food these connectors so any issues you might have we probably
+      are both suffering from.
+
 - lead: Open Source Stewardship
   image: "/images/GitHub_Logo.png"
   alt: "Github logo"
-  blurb: '
+  blurb: >
     <p>We are very active in the open source world. All of the open source work leverages
       the power of <a href="https://github.com">Github</a>.
       <ul>
@@ -32,5 +38,5 @@
         <li><a href="https://github.com/dubsoft">dubsoft Github group</a></li>
         <li><a href="https://github.com/t3mpus">Tempus Github group</a></li>
       </ul>
-  '
+
 
