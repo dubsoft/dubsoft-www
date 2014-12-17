@@ -18,12 +18,13 @@
 {% include js-pre-includes.html %}
 
 {% include navigation.html %}
-{% include hero.html %}
-
-<div id="Portfolio">{% include work.html %}</div>
-<div id="Team">{% include team.html %}</div>
-<div id="Contact">{% include contact.html %}</div>
-{% include footer.html %}
+<div class="scroll">
+  {% include hero.html %}
+  <div id="Portfolio">{% include work.html %}</div>
+  <div id="Team">{% include team.html %}</div>
+  <div id="Contact">{% include contact.html %}</div>
+  {% include footer.html %}
+</div>
 
 {% include js-post-includes.html %}
 </body>
