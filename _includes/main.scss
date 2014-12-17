@@ -14,6 +14,16 @@
 
 $nav-height: 60px;
 .scroll {
+  @include media($large-screen) {
+    $p: 50px;
+    padding-left: $p;
+    padding-right: $p;
+  }
+  @include media($medium-screen) {
+    $p: 10px;
+    padding-left: $p;
+    padding-right: $p;
+  }
   div.container {
     padding-top: $nav-height;
     margin-bottom: $nav-height;
