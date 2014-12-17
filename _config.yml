@@ -1,6 +1,7 @@
 name: dubsoft
 markdown: redcarpet
 exclude: [README.md, vector]
-gems: [jekyll-sass]
 sass:
   sass_dir: _includes/
+  style: compressed
+
