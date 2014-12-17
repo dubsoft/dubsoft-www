@@ -10,6 +10,15 @@
       projectsize: Medium
       website: "https://play.google.com/store/apps/details?id=com.fiveguys.olo.android&hl=en"
       dates: 1/11-Current
+    -
+      image: /images/reward-fountain.png
+      name: Reward Fountain Android
+      summary: "Dubsoft consulted with Connecticut based Reward Fountain to build the custom Kiosk application for their complete mobile marketing VIP program."
+      client:
+        name: 'Reward Fountain'
+        website: 'https://www.rewardfountain.com'
+      dates: 2/14-Current
+      website: 'https://www.rewardfountain.com'
 - name: 'Web'
   projects:
     - 
