@@ -11,8 +11,15 @@
 @import "refills/side-image";
 @import "refills/footer";
 
-.scroll div.container {
-  padding-top: 60px;
-  position: relative;
-  top: 60px;
+$nav-height: 60px;
+.scroll {
+  div.container {
+    padding-top: $nav-height;
+    position: relative;
+    top: $nav-height;
+  }
+  div.container-top, div.container-bottom {
+    padding-top: $nav-height;
+  }
 }
+
