@@ -1,0 +1,28 @@
+- name: 'Mobile'
+- name: 'Web'
+  projects:
+    - 
+      image: /images/quill.png
+      name: Quill Writer
+      summary: "Quill Writer is a cooperative writing game. Two students will write a passage together using a shared list of story words. It is built using Angular.js and Firebase."
+      client:
+        name: 'Quill'
+        website: 'http://www.quill.org'
+      dates: 7/14-
+      projectsize: Large
+    -
+      image: /images/quill.org
+      name: Quill Grammar
+      summary: "Quill Grammar provides interactive grammar lessons. It is currently under an Angular.js and Firebase rewrite."
+      client:
+        name: 'Quill'
+        website: 'http://www.quill.org'
+        dates: 12/14-
+        projectsize: Large
+
+
+
+- name: 'Open Source'
+
+
+- name: 'Consulting'
