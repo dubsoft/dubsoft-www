@@ -1,6 +1,15 @@
 - name: 'Mobile'
   projects:
-  image:
+    -
+      image: /images/fg-logo.png
+      name: Five Guys Burger's and Fries
+      summary: "Assisted solertium and team eat juicy burgers as Dubsoft helped write code for the Android and iOS versions of this delicous app."
+      client:
+        name: 'solertium'
+        website: 'http://www.solertium.com/work'
+      projectsize: Medium
+      website: "https://play.google.com/store/apps/details?id=com.fiveguys.olo.android&hl=en"
+      dates: 1/11-Current
 - name: 'Web'
   projects:
     - 
