@@ -10,3 +10,9 @@
 @import "refills/comment";
 @import "refills/side-image";
 @import "refills/footer";
+
+.scroll div.container {
+  padding-top: 60px;
+  position: relative;
+  top: 60px;
+}
