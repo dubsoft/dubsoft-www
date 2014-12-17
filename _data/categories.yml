@@ -1,4 +1,6 @@
 - name: 'Mobile'
+  projects:
+  image:
 - name: 'Web'
   projects:
     - 
@@ -8,18 +10,27 @@
       client:
         name: 'Quill'
         website: 'http://www.quill.org'
-      dates: 7/14-
+      dates: 7/14-Current
       projectsize: Large
+      website: 'https://quillwriter.org'
     -
-      image: /images/quill.org
+      image: /images/quill.png
       name: Quill Grammar
       summary: "Quill Grammar provides interactive grammar lessons. It is currently under an Angular.js and Firebase rewrite."
       client:
         name: 'Quill'
         website: 'http://www.quill.org'
-        dates: 12/14-
-        projectsize: Large
-
+      dates: 12/14-Current
+      projectsize: Large
+      website: 'http://www.quill.org'
+    - image: /images/dtun.png
+      name: Do They Use Node?
+      summary: "An Angular.js app with a Node.js  backend. Tests URLs for the presence of node.js components. An exercise in web scraping."
+      dates: 4/14
+      website: https://dotheyusenode.herokuapp.com/
+      client:
+        name: Dubsoft
+      projectsize: Small 
 
 
 - name: 'Open Source'
