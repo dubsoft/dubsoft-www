@@ -12,7 +12,9 @@ function checkHashDivs() {
   divs.forEach(function(div) {
     div = $(div);
     if (div.attr('id') === hash) {
-      div.addClass('container');
+      if (!div.hasClass('container')) {
+        div.addClass('container');
+      }
     } else {
       div.removeClass('container');
     }
@@ -21,5 +23,5 @@ function checkHashDivs() {
 $.each(['hashchange'], function(i, event) {
   $(window).on(event, checkHashDivs);
 });
-setTimeout(checkHashDivs, 10);
+Zepto(checkHashDivs);
 </script>
