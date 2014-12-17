@@ -4,3 +4,22 @@
 <script>
 {% include zepto-slide-transition.min.js %}
 </script>
+
+<script>
+function checkHashDivs() {
+  var hash = window.location.hash.replace('#','');
+  var divs = $('div.scroll').children('div');
+  divs.forEach(function(div) {
+    div = $(div);
+    if (div.attr('id') === hash) {
+      div.addClass('container');
+    } else {
+      div.removeClass('container');
+    }
+  });
+};
+$.each(['hashchange'], function(i, event) {
+  $(window).on(event, checkHashDivs);
+});
+setTimeout(checkHashDivs, 10);
+</script>
