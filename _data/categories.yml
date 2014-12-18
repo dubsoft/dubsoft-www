@@ -20,7 +20,7 @@
 - name: 'Web'
   projects:
     - 
-      image: /images/quill.png
+      image: /images/quill-writer.png
       name: Quill Writer
       summary: "Quill Writer is a cooperative writing game. Two students will write a passage together using a shared list of story words. It is built using Angular.js and Firebase."
       client:
@@ -29,7 +29,7 @@
       website: 'https://quillwriter.org'
       code: 'https://github.com/Empirical-Org/Quill-Writer'
     -
-      image: /images/quill.png
+      image: /images/quill-grammar.png
       name: Quill Grammar
       summary: "Quill Grammar provides interactive grammar lessons. It is currently under an Angular.js and Firebase rewrite."
       client:
