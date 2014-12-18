@@ -13,6 +13,9 @@
 
 $nav-height: 60px;
 .scroll {
+  h2 {
+    padding: 20px;
+  }
   @include media($large-screen) {
     $p: 50px;
     padding-left: $p;
