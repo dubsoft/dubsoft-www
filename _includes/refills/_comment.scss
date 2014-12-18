@@ -1,7 +1,7 @@
 .comment {
   $comment-gutter: 1.4em;
-  $comment-image-padding: .7em;
-  $comment-image-width: 4em;
+  $comment-image-padding: 1em;
+  $comment-image-width: 10em;
   $comment-color: $base-font-color;
   $comment-background: lighten($base-accent-color, 15);
   $comment-detail-color: transparentize($comment-color, .5);
@@ -27,7 +27,6 @@
       height: auto;
       border-radius: $base-border-radius;
       padding: $comment-image-padding;
-      background: $comment-background;
       display: block;
       max-width: none;
     }
