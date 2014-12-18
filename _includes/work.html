@@ -5,27 +5,14 @@
       <li class="tab-header-and-content">
       <a href="javascript:void(0)" class="tab-link">{{category.name}}</a>
           <div class="tab-content">
-            <div class="cards">
+            <div class="flex-boxes">
               {% for item in category.projects %}
-                <div class="card">
-                  <div class="ribbon-wrapper">
-                    <a target="_blank" href="{{ item.website }}"><div class="ribbon">Look!</div></a></div>
-                  <div class="card-image">
-                    <img src="{{ item.image }}" alt="{{ item.name }}"></img>
-                  </div>
-                  <div class="card-header">
-                    {{ item.name }}
-                  </div>
-                  <div class="card-copy">
-                    <p>{{ item.summary }}</p>
-                  </div>
-                  <div class="card-stats">
-                    <ul>
-                      <li><a target="_blank" href="{{ item.client.website }}">{{ item.client.name }}</a><span>Client</span></li>
-                      <li>{{ item.projectsize }}<span>Project Size</span></li>
-                      <li>{{ item.dates }}<span>Dates</span></li>
-                    </ul>
-                  </div>
+                <div class="flex-box flex-box-big">
+                  <h1 class="flex-title">{{ item.name }}</h1>
+                  <p>{{ item.summary }}</p>
+                </div>
+                <div class="flex-box">
+                  <img src="{{ item.image }}" alt="{{ item.name }}"></img>
                 </div>
               {% endfor %}
             </div>

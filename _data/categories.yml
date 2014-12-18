@@ -7,9 +7,7 @@
       client:
         name: 'solertium'
         website: 'http://www.solertium.com/work'
-      projectsize: Medium
       website: "https://play.google.com/store/apps/details?id=com.fiveguys.olo.android&hl=en"
-      dates: 1/11-Current
     -
       image: /images/reward-fountain.png
       name: Reward Fountain Android
