@@ -12,9 +12,28 @@
 @import "refills/cards";
 
 $nav-height: 60px;
+h2 {
+  .logo {
+    color: white;
+    padding-top: 15px;
+    font-size: 0.75em;
+  }
+}
+
+.hero {
+  p {
+    color: black;
+    font-size: 1.5em;
+  }
+  h1 {
+    color:black;
+    font-size: 5em;
+  }
+}
 .scroll {
   h2 {
     padding: 20px;
+
   }
   @include media($large-screen) {
     $p: 50px;
