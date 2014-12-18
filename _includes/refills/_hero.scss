@@ -1,6 +1,6 @@
 .hero {
-  $hero-background-top: #7F99BE; 
-  $hero-background-bottom: #20392B;
+  $hero-background-top: #FFF; 
+  $hero-background-bottom: #FFF;
   $hero-color: white;
   $gradient-angle: 10deg;
 
@@ -9,7 +9,7 @@
   background-repeat: no-repeat;
   background-position: top;
   background-size: cover;
-  padding-bottom: 4em;
+  padding-bottom: 2em;
 
   .hero-logo img {
     height: 3em;
