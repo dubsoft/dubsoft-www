@@ -4,9 +4,6 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
   <meta name="viewport" content="width=device-width">
-  {% if site.env == 'production' %}
-    <script src="https://www.dubsoft.net/scripts/js-sni/js-sni-min.js"></script>
-  {% endif %}
   <title>{{ page.title }}</title>
   <style type="text/css">
     {% capture include_to_scssify %}
@@ -18,7 +15,6 @@
   <link rel="icon" type="image/png" href="/images/favicon.png"/>
 </head>
 <body>
-{% include js-pre-includes.html %}
 
 {% include navigation.html %}
 <div class="container-top" id="Hero">{% include hero.html %}</div>
@@ -29,5 +25,11 @@
 </div>
 <div class="container-bottom">{% include footer.html %}</div>
 
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+{% include js-pre-includes.html %}
 {% include js-post-includes.html %}
+{% if site.env == 'production' %}
+  <script async src="https://www.dubsoft.net/scripts/js-sni/js-sni-min.js"></script>
+{% endif %}
 </body>
