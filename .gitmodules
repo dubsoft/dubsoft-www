@@ -1,3 +1,6 @@
 [submodule "_includes/js-sni"]
 	path = _includes/js-sni
 	url = git@github.com:wlaurance/js-sni.git
+[submodule "scripts/js-sni"]
+	path = scripts/js-sni
+	url = git@github.com:wlaurance/js-sni.git
