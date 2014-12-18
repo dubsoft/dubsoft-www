@@ -25,11 +25,5 @@
 </div>
 <div class="container-bottom">{% include footer.html %}</div>
 
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-
-{% include js-pre-includes.html %}
-{% include js-post-includes.html %}
-{% if site.env == 'production' %}
-  <script async src="https://www.dubsoft.net/scripts/js-sni/js-sni-min.js"></script>
-{% endif %}
+{% include javascript.html %}
 </body>

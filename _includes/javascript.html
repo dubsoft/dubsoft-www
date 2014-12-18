@@ -1,0 +1,82 @@
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-37144007-1', 'dubsoft.net');
+ga('send', 'pageview');
+
+WebFontConfig = {
+  google: { families: [ 'Ubuntu' ] }
+};
+(function() {
+  var wf = document.createElement('script');
+  wf.src = ('https:' == document.location.protocol ? 'https' : 'http') +
+    '://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+  wf.type = 'text/javascript';
+  wf.async = 'true';
+  var s = document.getElementsByTagName('script')[0];
+  s.parentNode.insertBefore(wf, s);
+})();
+
+function afterJesterJQueryArrives() {
+  function checkHashDivs() {
+    var hash = window.location.hash.replace('#','');
+    var divs = $('div.scroll > div');
+    divs.each(function(i, div) {
+      div = $(div);
+      if (div.attr('id') === hash) {
+        if (!div.hasClass('container')) {
+          div.addClass('container');
+        }
+      } else {
+        div.removeClass('container');
+      }
+    });
+  };
+
+  $(document).ready(function() {
+    $.each(['hashchange'], function(i, event) {
+      $(window).on(event, checkHashDivs);
+    });
+
+    checkHashDivs();
+  });
+
+
+  $(document).ready(function () {
+    $('.accordion-tabs').each(function(index) {
+      $(this).children('li').first().children('a').addClass('is-active').next().addClass('is-open').show();
+    });
+
+    $('.accordion-tabs').on('click', 'li > a', function(event) {
+      if (!$(this).hasClass('is-active')) {
+        event.preventDefault();
+        var accordionTabs = $(this).closest('.accordion-tabs');
+        accordionTabs.find('.is-open').removeClass('is-open').hide();
+
+        $(this).next().toggleClass('is-open').toggle();
+        accordionTabs.find('.is-active').removeClass('is-active');
+        $(this).addClass('is-active');
+      } else {
+        event.preventDefault();
+      }
+    });
+  });
+    $(document).ready(function() {
+      $('#js-navigation-menu').removeClass("show");
+
+      $('#js-mobile-menu').on('click', function(e) {
+        e.preventDefault();
+        $('#js-navigation-menu').toggle();
+      });
+    });
+};
+</script>
+
+<script async src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js" onload="afterJesterJQueryArrives()"></script>
+
+{% if site.env == 'production' %}
+  <script async src="https://www.dubsoft.net/scripts/js-sni/js-sni-min.js"></script>
+{% endif %}
