@@ -42,13 +42,17 @@
     });
 
     $('.accordion-tabs').on('click', 'li > a', function(event) {
-      if (!$(this).hasClass('is-active')) {
+      var classes = $(this).attr('class');
+      if (classes.indexOf('is-active') === -1) {
         event.preventDefault();
         var accordionTabs = $(this).closest('.accordion-tabs');
         accordionTabs.find('.is-open').removeClass('is-open').hide();
 
         $(this).next().toggleClass('is-open').toggle();
-        accordionTabs.find('.is-active').removeClass('is-active');
+        var actives = accordionTabs.find('.is-active');
+        actives.forEach(function(a, b, c) {
+          a.classList.remove('is-active'); 
+        });
         $(this).addClass('is-active');
       } else {
         event.preventDefault();
