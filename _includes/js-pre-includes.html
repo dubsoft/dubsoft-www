@@ -1,15 +1,10 @@
-<script>
-{% include zepto.min.js %}
-</script>
-<script>
-{% include zepto-slide-transition.min.js %}
-</script>
+<script src="/scripts/jquery-1.11.1.min.js"></script>
 
 <script>
 function checkHashDivs() {
   var hash = window.location.hash.replace('#','');
   var divs = $('div.scroll').children('div');
-  divs.forEach(function(div) {
+  divs.each(function(div) {
     div = $(div);
     if (div.attr('id') === hash) {
       if (!div.hasClass('container')) {
@@ -20,8 +15,12 @@ function checkHashDivs() {
     }
   });
 };
-$.each(['hashchange'], function(i, event) {
-  $(window).on(event, checkHashDivs);
+
+$(document).ready(function() {
+  $.each(['hashchange'], function(i, event) {
+    $(window).on(event, checkHashDivs);
+  });
+
+  checkHashDivs();
 });
-Zepto(checkHashDivs);
 </script>
