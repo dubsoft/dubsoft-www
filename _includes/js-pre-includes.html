@@ -3,8 +3,8 @@
 <script>
 function checkHashDivs() {
   var hash = window.location.hash.replace('#','');
-  var divs = $('div.scroll').children('div');
-  divs.each(function(div) {
+  var divs = $('div.scroll > div');
+  divs.each(function(i, div) {
     div = $(div);
     if (div.attr('id') === hash) {
       if (!div.hasClass('container')) {

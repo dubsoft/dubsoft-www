@@ -5,7 +5,7 @@
     </a>
     <a href="javascript:void(0)" class="navigation-menu-button" id="js-mobile-menu">MENU</a>
     <div class="nav">
-      <ul id="js-navigation-menu" class="navigation-menu show">
+      <ul id="js-navigation-menu" class="navigation-menu show" style="display: none;">
         <li class="nav-link"><a href="#Portfolio">Portfolio</a></li>
         <li class="nav-link"><a href="#Team">Team</a></li>
         <li class="nav-link"><a href="#Contact">Contact</a></li>
@@ -19,11 +19,11 @@
 
     $('#js-mobile-menu').on('click', function(e) {
       e.preventDefault();
-      $('#js-navigation-menu').slideToggle(function(){
-        if($('#js-navigation-menu').is(':hidden')) {
-          $('#js-navigation-menu').removeAttr('style');
-        }
-      });
+      $('#js-navigation-menu').toggle();
+    });
+    $(window).on('hashchange', function(e) {
+      e.preventDefault();
+      $('#js-navigation-menu').toggle(false);     
     });
   });
 </script>
