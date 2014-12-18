@@ -10,6 +10,10 @@
                 <div class="flex-box flex-box-big">
                   <h1 class="flex-title">{{ item.name }}</h1>
                   <p>{{ item.summary }}</p>
+                  <h3 class="flex-title">Client</h3>
+                  <p><a href="{{ item.client.website }}">{{ item.client.name}}</a></p>
+                  <h3 class="flex-title">Product Site</h3>
+                  <p><a href="{{ item.website }}">{{ item.website }}</a></p>
                 </div>
                 <div class="flex-box">
                   <img src="{{ item.image }}" alt="{{ item.name }}"></img>
