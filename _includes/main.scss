@@ -8,7 +8,6 @@
 @import "refills/hero";
 @import "refills/accordion-tabs";
 @import "refills/comment";
-@import "refills/side-image";
 @import "refills/footer";
 @import "refills/cards";
 
@@ -20,7 +19,7 @@ $nav-height: 60px;
     padding-right: $p;
   }
   @include media($medium-screen) {
-    $p: 10px;
+    $p: 30px;
     padding-left: $p;
     padding-right: $p;
   }
