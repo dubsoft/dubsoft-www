@@ -1,2 +1,2 @@
-JEKYLL_ENV=production jekyll build
-s3_website push
+jekyll build --config _config.yml,_production.yml
+#s3_website push
