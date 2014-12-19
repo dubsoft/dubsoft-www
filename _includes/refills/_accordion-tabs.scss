@@ -50,6 +50,8 @@
       border-top-left-radius: $base-border-radius;
       border-top-right-radius: $base-border-radius;
       border-top: 0;
+      min-width: 8em;
+      text-align: center;
     }
 
     &:hover {
