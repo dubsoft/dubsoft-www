@@ -3,7 +3,7 @@
     -
       image: /images/fg-logo.png
       name: Five Guys Burger's and Fries
-      summary: "Assisted solertium and team eat juicy burgers as Dubsoft helped write code for the Android and iOS versions of this delicous app. These apps combined have more than half a <b>million</b> downloads! That's a lot of burgers and fries. Working on this app development team is a rewarding experience for any foodie."
+      summary: "We assisted solertium and team eat juicy burgers, helped write code for the Android and iOS versions of this delicous app. These apps combined have more than half a <b>million</b> downloads! That's a lot of burgers and fries. Working on this app development team is a rewarding experience for any foodie."
       client:
         name: 'solertium'
         website: 'http://www.solertium.com/work'
@@ -45,8 +45,9 @@
 - name: 'Open Source'
   projects:
     -
+      image: /images/slack-for-linux.png
       name: Slack for Linux
-      summary: "Forgot my mac charger for a trip, and only had a linux laptop. I wanted to make an app using node-webkit. This ended up being a popular tool with linux developers"
+      summary: "I forgot my mac charger for a trip, and only had a linux laptop. I wanted to make an app using node-webkit. This ended up being a popular tool with linux developers"
       website: 'https://github.com/wlaurance/slack-for-linux'
       code: 'https://github.com/wlaurance/slack-for-linux'
     -
@@ -63,7 +64,7 @@
   projects:
     - image: /images/aws-console.png
       name: Secure and Effective Hosting Solutions
-      summary: "We typically use Amazon Web Services, Google App Engine, or Digital Ocean depending on client requirements. Most of the time we use a mixture of both to eliminate single points of failure. We like these services because they are easy to scale as your requirements grow. Redundant storage engines like Amazon's S3 stores your files in 3 separate geographic locations. Good luck loosing that file."
+      summary: "We typically use Amazon Web Services, Google App Engine, or Digital Ocean depending on client requirements. Most of the time we use a mixture of both to eliminate single points of failure. We like these services because they are easy to scale as your requirements grow. Redundant storage engines like Amazon's S3 store your files in 3 separate geographic locations. Good luck losing that file."
     - image: /images/mobile-design.png
       name: Mobile First and Design
-      summary: "We like to follow standard human interface guidelines for each project we touch. From iOS apps to websites, we ensure it looks great and delivers the native experience your users expect. This means keeping up with the latest iOS and Android design patterns. Keeping our eyes out for new CSS and JavaScript tools constantly. We like to use tools we understand, but also anyone else in your project can conceptually understand. We use tools that have great documentation and are generally open source."
+      summary: "We like to follow standard human interface guidelines for each project we touch. From iOS apps to websites, we ensure it looks great and delivers the native experience your users expect. This means keeping up with the latest iOS and Android design patterns, keeping our eyes out for new CSS and JavaScript tools constantly, and always documenting procedures taken."
