@@ -1,2 +1,2 @@
 jekyll build --config _config.yml,_production.yml
-s3_website push --force
+s3_website push
