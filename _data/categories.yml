@@ -2,7 +2,7 @@
   projects:
     -
       image: /images/fg-logo.png
-      name: Five Guys Burger's and Fries
+      name: Five Guys Burgers and Fries
       summary: "We assisted solertium and team eat juicy burgers, helped write code for the Android and iOS versions of this delicous app. These apps combined have more than half a <b>million</b> downloads! That's a lot of burgers and fries. Working on this app development team is a rewarding experience for any foodie."
       client:
         name: 'solertium'
