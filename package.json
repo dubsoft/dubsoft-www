@@ -1,0 +1,26 @@
+{
+  "name": "www.dubsoft.net",
+  "version": "1.0.0",
+  "description": "Dubsoft website ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dubsoft/www.dubsoft.net.git"
+  },
+  "author": "Will S. Laurance <w.laurance@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dubsoft/www.dubsoft.net/issues"
+  },
+  "homepage": "https://github.com/dubsoft/www.dubsoft.net#readme",
+  "dependencies": {
+    "node-static": "^0.7.6"
+  },
+  "engines" : {
+    "node" : "0.12.x"
+  }
+}

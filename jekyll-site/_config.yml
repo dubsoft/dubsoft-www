@@ -1,0 +1,8 @@
+name: dubsoft
+markdown: redcarpet
+gems: [jekyll_image_encode]
+exclude: [README.md, vector, Gemfile, Gemfile.lock]
+sass:
+  sass_dir: _includes/
+  style: compressed
+

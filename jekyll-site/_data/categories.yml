@@ -1,0 +1,70 @@
+- name: 'Mobile'
+  projects:
+    -
+      image: /images/fg-logo.png
+      name: Five Guys Burgers and Fries
+      summary: "We assisted solertium and team eat juicy burgers, helped write code for the Android and iOS versions of this delicous app. These apps combined have more than half a <b>million</b> downloads! That's a lot of burgers and fries. Working on this app development team is a rewarding experience for any foodie."
+      client:
+        name: 'solertium'
+        website: 'http://www.solertium.com/work'
+      website: "https://play.google.com/store/apps/details?id=com.fiveguys.olo.android&hl=en"
+    -
+      image: /images/reward-fountain.png
+      extra: /images/reward-design.png
+      name: Reward Fountain Android
+      summary: "Dubsoft consulted with Connecticut based Reward Fountain to build the custom Kiosk application for their complete mobile marketing VIP program. Using custom software and packages, we were able to build a traditional kiosk experience without the bloatware many vendors add on. This app is in use by many businesses already!"
+      client:
+        name: 'Reward Fountain'
+        website: 'https://www.rewardfountain.com'
+      website: 'https://www.rewardfountain.com'
+- name: 'Web'
+  projects:
+    - 
+      image: /images/quill-writer.png
+      name: Quill Writer
+      summary: "Quill Writer is a cooperative writing game. Two students will write a passage together using a shared list of story words. It is built using Angular.js and Firebase."
+      client:
+        name: 'Quill'
+        website: 'http://www.quill.org'
+      website: 'https://quillwriter.org'
+      code: 'https://github.com/Empirical-Org/Quill-Writer'
+    -
+      image: /images/quill-grammar.png
+      name: Quill Grammar
+      summary: "Quill Grammar provides interactive grammar lessons. It is currently under an Angular.js and Firebase rewrite."
+      client:
+        name: 'Quill'
+        website: 'http://www.quill.org'
+      website: 'http://www.quill.org'
+      code: 'https://github.com/Empirical-Org/Quill-Writer'
+    - image: /images/dtun.png
+      name: Do They Use Node?
+      summary: "An Angular.js app with a Node.js  backend. Tests URLs for the presence of node.js components. An exercise in web scraping. This project was aligned with a April Fools Hackathon."
+      website: https://dotheyusenode.herokuapp.com/
+      code: 'https://github.com/Empirical-Org/Quill-Writer'
+- name: 'Open Source'
+  projects:
+    -
+      image: /images/slack-for-linux.png
+      name: Slack for Linux
+      summary: "I forgot my mac charger for a trip, and only had a linux laptop. I wanted to make an app using node-webkit. This ended up being a popular tool with linux developers"
+      website: 'https://github.com/wlaurance/slack-for-linux'
+      code: 'https://github.com/wlaurance/slack-for-linux'
+    -
+      image: /images/pop-repos.png
+      name: Popular Open Source Libraries
+      summary: "Will does a lot of open source. Some modules here, some gems there, go packages everywhere."
+    -
+      image: /images/contributions.png
+      name: Lots of Contributions
+      summary: "In an effort to build reusable software, Will likes to make lot's of contributions. He is always trying new languages and stacks, so give his Github profile a look!"
+      website: "https://github.com/wlaurance"
+
+- name: 'Consulting'
+  projects:
+    - image: /images/aws-console.png
+      name: Secure and Effective Hosting Solutions
+      summary: "We typically use Amazon Web Services, Google App Engine, or Digital Ocean depending on client requirements. Most of the time we use a mixture of both to eliminate single points of failure. We like these services because they are easy to scale as your requirements grow. Redundant storage engines like Amazon's S3 store your files in 3 separate geographic locations. Good luck losing that file."
+    - image: /images/mobile-design.png
+      name: Mobile First and Design
+      summary: "We like to follow standard human interface guidelines for each project we touch. From iOS apps to websites, we ensure it looks great and delivers the native experience your users expect. This means keeping up with the latest iOS and Android design patterns, keeping our eyes out for new CSS and JavaScript tools constantly, and always documenting procedures taken."
