@@ -4,7 +4,7 @@ gems: [jekyll_image_encode]
 exclude: [README.md, vector, Gemfile, Gemfile.lock]
 assets:
   js_compressor:  uglifier
-  css_compressor: sass
+  css_compressor: yui
 sass:
   sass_dir: _includes/
   style: compressed
