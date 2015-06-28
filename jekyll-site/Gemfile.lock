@@ -119,7 +119,11 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  jekyll
   jekyll-assets
   jekyll-press
   jekyll_image_encode
   yui-compressor
+
+BUNDLED WITH
+   1.10.5
