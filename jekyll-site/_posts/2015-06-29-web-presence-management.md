@@ -11,10 +11,6 @@ of continuous tasks you must accomplish during the lifetime of your business,
 product, or service. Effectively managing your web presence is essential to your
 business's success.
 
-In 2015, you must have full control over your web presence. If you do not
-have the technical skills, time, or desire to manage your business's web presence,
-you _need_ a trusted partner.
-
 **What is your web presence?** A web presence is a collection of information that
 represents your brand and business. Years ago, web presence referred to only web
 site consisting of a homepage and a hierarchy of HTML pages. Now, your web presence
@@ -62,3 +58,9 @@ is very important that you work with a trusted partner. You are outsourcing an
 important aspect of your business. Arguably the most crucial for company's growth
 and future. It is necessary to work with partners who understand and respect this
 importance.
+
+<hr/>
+
+In 2015, you must have full control over your web presence. If you do not
+have the technical skills, time, or desire to manage your business's web presence,
+you _need_ a trusted partner.
