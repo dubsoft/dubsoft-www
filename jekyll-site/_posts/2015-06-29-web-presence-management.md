@@ -49,7 +49,11 @@ increases in traffic and load as you gain in popularity.
 ##4. Know the Complete Picture of Your Web Presence
 
 Knowing your web presence fully, allows you to fill in the gaps, capitalize on
-new technology trends, and stay ahead of your competition.
+new technology trends, and stay ahead of your competition. I recommend using collaborative
+platforms to keep all of your web presence products' information in one place.
+Having all of this information in one place helps keep your entire team up to date.
+I suggest you use a tool that has a place for formal documents and another place for
+notes and drafting ideas.
 
 ##5. Managing Your Technology and Web Presence Partner
 
