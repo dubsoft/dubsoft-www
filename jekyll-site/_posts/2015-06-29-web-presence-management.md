@@ -17,7 +17,11 @@ you _need_ a trusted partner.
 Here are 5 key points to managing your web presence in today's fast pace technology
 environment.
 
-##1. Understand your Web Presence is Not a One Time Purchase
+##1. Understand Your Web Presence is not a One Time Purchase
+
+Having a website, web application, or mobile application is not something you set and
+forget. You'll have maintain these products in order to keep your web presence up to
+date, up to speed, and modern. You'll need to budget and plan for the long term.
 
 ##2. Know Your Business's Audience Inside and Out 100% of the Time
 
