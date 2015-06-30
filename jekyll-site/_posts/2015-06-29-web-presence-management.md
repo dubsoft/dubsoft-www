@@ -31,6 +31,17 @@ metrics, capture analytics, and evaluate your numbers in real time.
 
 ##3. Have a Secure, Reliable, and Scalable Technology Stack Powering Your Web Presence
 
+Building software is a difficult task because the requirements and needs it must fulfill
+change frequently. For this reason it is important that the stack, or various frameworks,
+programming languages, production environments, your web presence uses is secure, reliable,
+and scalable. Security is important because as you grow larger you may be the target of
+an attacker. Weak and insecure software makes it simple for an attacker to gain access
+and damage your online presence. Reliable technology and resources are ones that provide
+consistent up time for your web presence products. This includes keeping your website,
+application interfaces, or anything public on highly available systems so that the maximum
+amount of your audience can be reached. Scalable technology will make your web presence handle
+increases in traffic and load as you gain in popularity.
+
 ##4. Know the Complete Picture of Your Web Presence
 
 ##5. Managing Your Technology and Web Presence Partner
