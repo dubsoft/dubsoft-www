@@ -25,6 +25,10 @@ date, up to speed, and modern. You'll need to budget and plan for the long term.
 
 ##2. Know Your Business's Audience Inside and Out 100% of the Time
 
+Knowing your audience allows you to make informed choices about your content,
+design, positioning, and brand throughout your web presence. It is important to collect
+metrics, capture analytics, and evaluate your numbers in real time.
+
 ##3. Have a Secure, Reliable, and Scalable Technology Stack Powering Your Web Presence
 
 ##4. Know the Complete Picture of Your Web Presence
