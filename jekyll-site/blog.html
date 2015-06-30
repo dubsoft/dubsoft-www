@@ -6,7 +6,9 @@ title: dubsoft
   {% for post in site.posts %}
     <div class="row">
       <h2><a href='{{ post.url }}'>{{ post.title }}</a></h2>
-      <p>By {{ post.author }} on {{ post.date | date_to_string }}</p>
+      <h4>By {{ post.author }} on {{ post.date | date_to_string }}</h4>
+      <p>{{ post.excerpt }}</p>
     </div>
+    <hr/>
   {% endfor %}
 </div>
