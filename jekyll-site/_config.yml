@@ -1,10 +1,19 @@
 name: dubsoft
 markdown: redcarpet
-gems: [jekyll_image_encode]
+gems: [jekyll_image_encode, jekyll-minify-html]
 exclude: [README.md, vector, Gemfile, Gemfile.lock]
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      author: Will Laurance
+permalink: pretty
 assets:
   js_compressor:  uglifier
-  css_compressor: yui
+  css_compressor: sass
+  cache: true
 sass:
   sass_dir: _includes/
   style: compressed

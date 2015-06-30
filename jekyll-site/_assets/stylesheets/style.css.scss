@@ -11,6 +11,18 @@ body {
   line-height: 1.8em;
   padding-top: 90px;
 }
+div.text-container {
+  background-color: rgba(0,0,0,0.6);
+  padding: 50px;
+  max-width: 800px;
+  div.row {
+    margin:50px;
+    @media(max-width: 768px) {
+      margin: 0px;
+    }
+  }
+  
+}
 p {
   color: #ffffff;
 }
