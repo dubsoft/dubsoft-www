@@ -8,11 +8,19 @@ description: Introduction to building and maintaining a secure, reliable, and sc
 
 Managing your web presence is not a simple task. In fact, it is a series
 of continuous tasks you must accomplish during the lifetime of your business,
-product, or service.
+product, or service. Effectively managing your web presence is essential to your
+business's success.
 
-In 2015, it is a must to have full control over your web presence. If you do not
+In 2015, you must have full control over your web presence. If you do not
 have the technical skills, time, or desire to manage your business's web presence,
 you _need_ a trusted partner.
+
+**What is your web presence?** A web presence is a collection of information that
+represents your brand and business. Years ago, web presence referred to only web
+site consisting of a homepage and a hierarchy of HTML pages. Now, your web presence
+includes your website, social media profiles, Android, iOS, and mobile applications.
+Technology is everywhere and it is your job to control the message, content, and
+experience for your audience.
 
 Here are 5 key points to managing your web presence in today's fast pace technology
 environment.
