@@ -1,6 +1,6 @@
 name: dubsoft
 markdown: redcarpet
-gems: [jekyll_image_encode]
+gems: [jekyll_image_encode, jekyll-minify-html]
 exclude: [README.md, vector, Gemfile, Gemfile.lock]
 defaults:
   -
