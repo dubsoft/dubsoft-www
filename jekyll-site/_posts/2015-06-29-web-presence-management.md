@@ -44,4 +44,13 @@ increases in traffic and load as you gain in popularity.
 
 ##4. Know the Complete Picture of Your Web Presence
 
+Knowing your web presence fully, allows you to fill in the gaps, capitalize on
+new technology trends, and stay ahead of your competition.
+
 ##5. Managing Your Technology and Web Presence Partner
+
+If you do not have the in house resources to fully manage your web presence, it
+is very important that you work with a trusted partner. You are outsourcing an
+important aspect of your business. Arguably the most crucial for company's growth
+and future. It is necessary to work with partners who understand and respect this
+importance.
