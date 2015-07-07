@@ -12,10 +12,6 @@ GEM
       execjs
     coffee-script-source (1.9.1.1)
     colorator (0.1)
-    css_press (0.3.2)
-      csspool-st (= 3.1.2)
-      json
-    csspool-st (3.1.2)
     execjs (2.5.2)
     fast-stemmer (1.0.2)
     fastimage (1.7.0)
@@ -23,11 +19,6 @@ GEM
     ffi (1.9.10)
     hike (1.2.3)
     hitimes (1.2.2)
-    html_press (0.8.2)
-      htmlentities
-      multi_css (>= 0.1.0)
-      multi_js (>= 0.1.0)
-    htmlentities (4.3.4)
     jekyll (2.5.3)
       classifier-reborn (~> 2.0)
       colorator (~> 0.1)
@@ -54,17 +45,11 @@ GEM
     jekyll-coffeescript (1.0.1)
       coffee-script (~> 2.2)
     jekyll-gist (1.2.1)
-    jekyll-minify-html (1.1.0)
-      html_press (~> 0.8.2)
-      jekyll (>= 0.12)
     jekyll-paginate (1.1.0)
     jekyll-sass-converter (1.3.0)
       sass (~> 3.2)
     jekyll-watch (1.2.1)
       listen (~> 2.7)
-    jekyll_image_encode (0.0.4)
-      mimemagic (>= 0.2.0)
-    json (1.8.3)
     kramdown (1.8.0)
     liquid (2.6.2)
     listen (2.10.1)
@@ -72,12 +57,7 @@ GEM
       rb-fsevent (>= 0.9.3)
       rb-inotify (>= 0.9)
     mercenary (0.3.5)
-    mimemagic (0.3.0)
     mini_magick (4.2.7)
-    multi_css (0.1.0)
-      css_press
-    multi_js (0.1.0)
-      uglifier (~> 2)
     multi_json (1.11.2)
     parslet (1.5.0)
       blankslate (~> 2.0)
@@ -107,19 +87,14 @@ GEM
       hitimes
     toml (0.1.2)
       parslet (~> 1.5.0)
-    uglifier (2.7.1)
-      execjs (>= 0.3.0)
-      json (>= 1.8.0)
     yajl-ruby (1.2.1)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
-  jekyll
+  jekyll (= 2.5.3)
   jekyll-assets (= 1.0.0.pre.alpha1)
-  jekyll-minify-html
-  jekyll_image_encode
 
 BUNDLED WITH
    1.10.5
