@@ -20,14 +20,14 @@ GEM
     fast-stemmer (1.0.2)
     fastimage (1.7.0)
       addressable (~> 2.3, >= 2.3.5)
-    ffi (1.9.9)
+    ffi (1.9.10)
     hike (1.2.3)
     hitimes (1.2.2)
     html_press (0.8.2)
       htmlentities
       multi_css (>= 0.1.0)
       multi_js (>= 0.1.0)
-    htmlentities (4.3.3)
+    htmlentities (4.3.4)
     jekyll (2.5.3)
       classifier-reborn (~> 2.0)
       colorator (~> 0.1)
@@ -43,9 +43,9 @@ GEM
       redcarpet (~> 3.1)
       safe_yaml (~> 1.0)
       toml (~> 0.1.0)
-    jekyll-assets (0.14.0)
+    jekyll-assets (1.0.0.pre.alpha1)
       fastimage (~> 1.6)
-      jekyll (~> 2.0)
+      jekyll (>= 2)
       mini_magick (~> 4.1)
       sass (~> 3.2)
       sprockets (~> 2.10)
@@ -65,7 +65,7 @@ GEM
     jekyll_image_encode (0.0.4)
       mimemagic (>= 0.2.0)
     json (1.8.3)
-    kramdown (1.7.0)
+    kramdown (1.8.0)
     liquid (2.6.2)
     listen (2.10.1)
       celluloid (~> 0.16.0)
@@ -78,7 +78,7 @@ GEM
       css_press
     multi_js (0.1.0)
       uglifier (~> 2)
-    multi_json (1.11.1)
+    multi_json (1.11.2)
     parslet (1.5.0)
       blankslate (~> 2.0)
     posix-spawn (0.3.11)
@@ -117,7 +117,7 @@ PLATFORMS
 
 DEPENDENCIES
   jekyll
-  jekyll-assets
+  jekyll-assets (= 1.0.0.pre.alpha1)
   jekyll-minify-html
   jekyll_image_encode
 
