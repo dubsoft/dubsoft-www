@@ -100,6 +100,3 @@ DEPENDENCIES
   jekyll (= 2.5.3)
   jekyll-assets (= 1.0.0.pre.alpha1)
   uglifier (= 2.7.1)
-
-BUNDLED WITH
-   1.10.5
