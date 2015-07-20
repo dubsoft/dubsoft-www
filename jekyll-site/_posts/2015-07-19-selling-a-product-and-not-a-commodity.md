@@ -38,6 +38,6 @@ I want to give my customers the gold they are seeking.
 
 This is how dubsoft levels up.
 
-
+Also posted on my [blog](http://www.wlaurance.com/2015/07/selling-a-product-and-not-a-commodity/)
 
 \*Yes, I know gold is an economic commodity.
