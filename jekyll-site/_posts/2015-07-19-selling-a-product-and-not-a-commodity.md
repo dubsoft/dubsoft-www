@@ -7,6 +7,9 @@ tags:
   - Leveling Up
 ---
 
+I want to sell products.
+
+
 I was hesitant to sell more than a website, mobile app, or technical commodity. As a technician, how could I sell anymore?
 
 The answer is I cannot.
@@ -21,4 +24,20 @@ A product leaves my customer with a feeling. Yes, they walk away with a website,
 
 The product is _gold_. Built with the sames components as steel and iron, but provides a good feeling.
 
-So what makes a product gold instead of steel?
+So what makes a product gold instead of commodity steel?
+
+Both are build from components: protons, neutrons, and electrons. The arrangement of gold components are different than steel\*.
+
+At the core are neutrons and protons. In this example, the product we are selling is a secure website. Neutrons and protons are SSL certificates, trust seals, and secure hosts. The electrons are the facts, feelings, and promises the nucleolus provides.
+
+On their own, protons and neutrons are the commodities valuable in their own right. But the real value are the electrons that leave my customers feeling happy.
+
+If I am to sell products, I have to package them as gold. Until this point, I'd never thought of packaging. I've been a proton pusher.
+
+I want to give my customers the gold they are seeking.
+
+This is how dubsoft levels up.
+
+
+
+\*Yes, I know gold is an economic commodity.
