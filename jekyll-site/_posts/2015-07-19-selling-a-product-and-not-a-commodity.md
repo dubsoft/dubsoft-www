@@ -26,7 +26,7 @@ The product is _gold_. Built with the sames components as steel and iron, but pr
 
 So what makes a product gold instead of commodity steel?
 
-Both are build from components: protons, neutrons, and electrons. The arrangement of gold components are different than steel\*.
+Both are built from components: protons, neutrons, and electrons. The arrangement of gold components are different than steel\*.
 
 At the core are neutrons and protons. In this example, the product we are selling is a secure website. Neutrons and protons are SSL certificates, trust seals, and secure hosts. The electrons are the facts, feelings, and promises the nucleolus provides.
 
